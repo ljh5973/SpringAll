@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Thu Jun 24 11:41:29 KST 2021
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\Leejinho\\.m2\\repository\\org\\springframework\\spring-web\\5.0.7.RELEASE\\spring-web-5.0.7.RELEASE.jar=C\:\\Users\\Leejinho\\Desktop\\test\\STUDY\\sts-bundle\\apache-tomcat-9.0.46\\wtpwebapps\\aaaa\\WEB-INF\\lib\\spring-web-5.0.7.RELEASE.jar
+org.eclipse.jst.jee.server\:aaaa=C\:\\Users\\Leejinho\\Desktop\\test\\STUDY\\sts-bundle\\apache-tomcat-9.0.46\\wtpwebapps\\aaaa

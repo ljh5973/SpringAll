@@ -1,0 +1,17 @@
+package com.team404.command;
+
+import lombok.Data;
+
+@Data
+public class PageVO {
+	
+	
+	private int total;	//게시판 총 게시글 수
+	private int startPage;	//페이지에 보일 첫번째 번호
+	private int endPage;	//페이지에 보일 마지막 번호
+	private int realEnd;	//게시글 실제 마지막 페이지 번호
+
+	private boolean prev;
+	private boolean next;
+
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="SpringDI"/>
+<aop-project name="MyWeb2"/>
+<aop-project name="testSearch"/>
+<aop-project name="MyWeb"/>
+<aop-project name="jex00"/>
+<aop-project name="aaaa"/>
+<aop-project name="TestMake"/>
+<aop-project name="testBasic"/>
+<aop-project name="SpringBasic"/>
+</aop-reference-model>

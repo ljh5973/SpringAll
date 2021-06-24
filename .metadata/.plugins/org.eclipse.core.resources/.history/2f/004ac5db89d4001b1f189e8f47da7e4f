@@ -1,0 +1,21 @@
+package com.team404.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController	//비동기 전용컨트롤러(@ReqeustBody + @ResponseBody)
+public class RestBasicController {
+
+	
+	//1.RestController는 기본적으로 return에 담기는 값이 리졸버 뷰로 가는게 아니고, 요청된 주소로 반환됩니다.
+	
+	
+	//@RequestMapping(value="/getText", method=RequestMethod.GET)
+	@GetMapping(value="/getText", produces="text/plain")
+	public String getText() {
+		
+		
+		System.out.println("실행되었습니다.");
+		return "hello world";
+	}
+}

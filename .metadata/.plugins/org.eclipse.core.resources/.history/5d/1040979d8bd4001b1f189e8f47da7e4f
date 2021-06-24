@@ -1,0 +1,33 @@
+package com.team404.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.team404.command.TestVO;
+
+@RestController	//비동기 전용컨트롤러(@ReqeustBody + @ResponseBody)
+public class RestBasicController {
+
+	
+	//1.RestController는 기본적으로 return에 담기는 값이 리졸버 뷰로 가는게 아니고, 요청된 주소로 반환됩니다.
+	//2.REST API에서는 produce키워드는 보내는 데이터에 대한 내용.
+	//				 consumers는 전달받는 데이터에 대한 내용.
+	
+	
+	
+	//@RequestMapping(value="/getText", method=RequestMethod.GET)
+	@GetMapping(value="/getText", produces="text/plain")
+	public String getText() {
+		
+		
+		System.out.println("실행되었습니다.");
+		return "hello world";
+	}
+	
+	@GetMapping(value="/getObject", produces="application/json")
+	public TestVO getObject() {
+		return new TestVO("홍길동","20","2020",2000);
+		
+	}
+	
+}

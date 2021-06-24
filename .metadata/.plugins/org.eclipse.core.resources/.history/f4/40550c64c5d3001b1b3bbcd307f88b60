@@ -1,0 +1,12 @@
+package com.team404.command;
+
+public class PageVO {
+
+	
+	private int total;
+	private int endPage;
+	private int startPage;
+	private int realEnd;
+	private int prev;
+	private int next;
+}
